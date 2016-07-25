@@ -251,7 +251,7 @@ public class MyAnnotationMerger  extends AbstractLanguageAnalyser {
 		  if (getByAllAnnotFeatures()) {
 			  featuresTmp.putAll(annot.getFeatures());
 		  } else {
-			  if (getBySpecificAnnotFeatres() != null) {
+			  if (getBySpecificAnnotFeatres().size()>0) {
 				  for (String sameFeature : getBySpecificAnnotFeatres()) {
 					  if (annot.getFeatures().containsKey(sameFeature)) {
 						  featuresTmp.put(sameFeature, annot.getFeatures().get(sameFeature));
