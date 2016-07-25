@@ -1,0 +1,12 @@
+<!-- creole.xml Annotation Merger -->
+<!--  ruslan, 24/7/2016 -->
+
+<!--
+This file just references the JAR file that contains the compiled resource.
+Configuration is contained in the @CreoleResource annotation on 
+uk.ac.ox.cs.nlp.gate.AnnotationMerger.
+-->
+
+<CREOLE-DIRECTORY>
+  <JAR SCAN="true">myAnnotationMerger.jar</JAR>
+</CREOLE-DIRECTORY>
