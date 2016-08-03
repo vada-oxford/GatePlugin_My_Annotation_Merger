@@ -1,9 +1,9 @@
 #My Annotation Merger
-Gate Plug-in for merging annotations
 
-This directory has been created by the GATE bootstrap wizard.
-The following files and directories have been created:
+Gate Plug-in for merging annotations.
+Annotations can be merged by the type of an annotation, all or specific set of features.
 
+A structure of directories:
 ```
 My_Annotation_Merger/
   |
@@ -21,9 +21,8 @@ My_Annotation_Merger/
         plugin configuration file for GATE - edit this to add parameters, etc.,
         for your resources.
 ```
-To build your plugin you can use Ant:
 
-`ant jar`
+To build your plugin you can use Ant: `ant jar`
 
 This will compile the Java code and package the classes into a JAR file.  The
 build file also has a target to create JavaDoc documentation - `ant javadoc`.
